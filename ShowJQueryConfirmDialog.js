@@ -34,3 +34,10 @@ function ShowJQueryConfirmDialog(okCallback) {
 	});
 		return dfd.promise();
 }
+
+function test {
+	var ret= ShowJQueryConfirmDialog(function(){
+		
+	},strComment );
+}
+
